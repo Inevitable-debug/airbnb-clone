@@ -24,6 +24,12 @@ This will grab the required dependancies from the package.json file and install
 it to the local host. This allows the server to be run using the necessary
 dependencies.
 
+Run this to start the server:
+
+`npm run build `
+
+Right click index.html and run. The server should appear in your browser and should be viewable.
+
 ## 4. Troubleshooting
 If any merge or commit issues occur pushing a commit, then use the merge editor to troubleshoot it.+
 
@@ -32,3 +38,9 @@ If any merge or commit issues occur pushing a commit, then use the merge editor 
 Above is a picture of how the merge editor looks like. Incoming changes are either
 integrated or rejected into the existing codebase. Once these issues are resolved,
 it should be possible to merge the branch in question or re-commit.
+
+Run:
+
+`npm audit fix` 
+
+to fix any errors associated with installation.
